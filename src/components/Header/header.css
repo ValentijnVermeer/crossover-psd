@@ -1,0 +1,75 @@
+:root {
+  --pink: #831adc;
+}
+
+header {
+  display: flex;
+}
+
+a {
+    color: black;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  padding: 20px;
+}
+
+#title {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  min-height:70%;
+  padding: 10px;
+}
+
+#arrow {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+h1 > img {
+    max-height: 300px;
+} 
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 16px;
+  gap: 10px;
+}
+
+h2 span {
+    padding: 5px;
+}
+
+#thirst {
+  rotate: -5deg;
+}
+
+#thirst > span {
+  background-color: black;
+}
+
+#party {
+  rotate: 3deg;
+  align-self: end;
+}
+
+#party > span {
+  background-color: var(--pink);
+}
+
+.highlighted {
+    font-weight: 700;
+    color: var(--pink);
+}

@@ -1,0 +1,33 @@
+:root {
+    --pink: #831adc;
+  }
+
+#newsletter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    background-color: var(--pink);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-content: space-around;
+}
+
+form > * {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
+
+form > button {
+    color: var(--pink)
+}
+
+#news-img img {
+    max-width: 100%;
+}
