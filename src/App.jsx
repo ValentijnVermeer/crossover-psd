@@ -2,6 +2,8 @@
 import './App.css'
 import Header from './components/Header/Header'
 import Newsletter from './components/Newsletter/Newsletter'
+import Section3 from './components/Section3'
+import SectionJohnDoe from './components/SectionJohnDoe'
 
 function App() {
 
@@ -9,7 +11,11 @@ function App() {
   return (
     <>
       <Header />
-      {/*       <Banner /> */}
+
+
+      {/* <Banner/>
+    <Section3 /> */}
+      <SectionJohnDoe />
       <Newsletter />
     </>
   )

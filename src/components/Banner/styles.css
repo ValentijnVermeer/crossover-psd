@@ -8,13 +8,13 @@
   position: relative;
 }
 
-img{
+/* img{
   position: absolute;
   overflow: hidden;
   left: -7.5%;
   bottom: -13%;
   z-index: 0;
-}
+} */
 
 .Header{
   width: 30%

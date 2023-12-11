@@ -1,0 +1,41 @@
+.sectionjohndoe-h2 {
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.sectionjohndoe-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    gap: 4rem;
+    padding: 0 3rem;
+
+}
+
+.sectionjohndoe-image {
+    margin: auto;
+}
+
+.sectionjohndoe-p {
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sectionjohndoe-wrapper-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sectionjohndoe-p-wrapper {
+    
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
