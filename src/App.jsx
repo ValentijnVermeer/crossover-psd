@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <Header />
-      <Banner/>
-      <Section3 /> 
+      {/* <Banner /> */}
+      <Section3 />
       <SectionJohnDoe />
       <Newsletter />
     <Ticket/>

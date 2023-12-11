@@ -4,6 +4,7 @@ import "./newsletter.css"
 export default function Newsletter() {
     return (
         <div id="newsletter">
+
             <div id="newsletter-left">
                 <h3 id="news-title">NEWS<span>LETTER</span></h3>
                 <form action="">
