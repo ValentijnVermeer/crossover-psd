@@ -7,7 +7,7 @@ import PaperTear from "../../assets/paper-tear.png"
 const Section3 = () => {
   return (
     <section className="section3-wrapper">
-    <img src={PaperTear} alt="" />
+    {/* <img src={PaperTear} alt="" /> */}
     <div className="section3-top">
         <div className="section3-headline purple">01/03</div>
         <img src={Stroke2} className="section3-wrapper-image2"/>
