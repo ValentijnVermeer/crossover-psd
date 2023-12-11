@@ -20,7 +20,7 @@ header #menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px;
+  padding: 60px 20px 20px 60px;
 }
 
 header #menu ul {
@@ -33,13 +33,15 @@ header #menu ul {
 header #title {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  min-height: 70%;
+  min-height: 60%;
 }
 
 header #arrow {
   display: flex;
   align-items: end;
   justify-content: center;
+  position: relative;
+  bottom: 40px;
 }
 
 header #title-mid {
@@ -69,6 +71,10 @@ header h2 {
   color: white;
   font-size: 16px;
   gap: 10px;
+}
+
+header #descr {
+    text-align: center;
 }
 
 header h2 span {
@@ -106,4 +112,8 @@ header h2 span {
     top: 25px;
     left: -17.5vw;
   }
+}
+
+header #left-header {
+    padding-bottom: 20px;
 }
