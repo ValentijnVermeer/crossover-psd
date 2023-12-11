@@ -1,6 +1,3 @@
-:root {
-    --pink: #831adc;
-  }
 
 #newsletter {
     display: grid;
@@ -9,25 +6,48 @@
     background-color: var(--pink);
 }
 
-form {
+#newsletter #newsletter-left {
+    margin: auto;
+}
+
+#newsletter form {
     display: flex;
     flex-direction: column;
     padding: 20px;
     align-content: space-around;
 }
 
-form > * {
+#newsletter #news-title {
+    text-align: center;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 93px;
+}
+
+#newsletter #news-title span {
+    color: black
+}
+
+#newsletter form > * {
     background-color: transparent;
     border: 1px solid white;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 17px;
 }
 
-form > button {
-    color: var(--pink)
+#newsletter form > button {
+    color: var(--pink);
+    background-color: white;
 }
 
-#news-img img {
+#newsletter #news-img {
+    display: flex;
+    justify-content: end;
+}
+
+#newsletter #news-img img {
     max-width: 100%;
 }

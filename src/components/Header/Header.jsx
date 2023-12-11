@@ -19,11 +19,14 @@ export default function Header() {
                     </ul>
                 </div>
                 <div id="title">
-                    <div id="arrow">Arrow</div>
-                    <div>
+                    <div id="arrow">
+                        <img src="./src/components/Header/assets/arrow.png" alt="" />
+                    </div>
+                    <div id="title-mid">
                         <h1>
-                            <img src="./src/components/Header/assets/stroke3.png" alt="" class="title-img" />
-                            <img src="./src/components/Header/assets/music-show.png" alt="" class="title-img" />
+                            <img src="./src/components/Header/assets/stroke3.png" alt="" className="title-img" id="title-border" />
+                            <img src="./src/components/Header/assets/music-show.png" alt="" className="title-img" />
+
                         </h1>
                         <h2>
                             <p id="thirst"><span >A PLACE TO QUENCH YOUR THIRST FOR MUSIC</span></p>
@@ -32,7 +35,9 @@ export default function Header() {
                         <p id="descr"><span className="highlighted">Lorem ipsum dolor sit amet</span> consectetur adipisicing elit. Ipsam, id! Officiis veniam fuga laboriosam. Quam beatae eveniet totam unde a, suscipit, accusamus possimus dolores et delectus aspernatur doloribus architecto magni.
                         </p>
                     </div>
-                    <div></div>
+                    <div>
+                        <img src="./src/components/Header/assets/stroke1.png" alt="" className="title-background" />
+                    </div>
                 </div>
             </div>
             <div>
