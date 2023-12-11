@@ -1,0 +1,62 @@
+.Banner{
+  background-color: #9913e1;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  align-items: center;
+  position: relative;
+}
+
+img{
+  position: absolute;
+  overflow: hidden;
+  left: -7.5%;
+  bottom: -13%;
+  z-index: 0;
+}
+
+.Header{
+  width: 30%
+}
+
+.Header h1{
+  font-size: 3.5rem;
+  color: black;
+}
+
+.Header span{
+  color: white;
+}
+
+.textBtn{
+  width: 30%;
+  text-align: left;
+}
+
+.textBtn p {
+  padding: 0;
+  text-align: justify;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  margin: 0;
+  padding-bottom: 1rem;
+  color: black;
+}
+
+.textBtn span{
+  color: white;
+}
+
+.textBtn button{
+  padding-inline: 2.8rem;
+  padding-block: 0.5rem;
+  background: none;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  
+}
