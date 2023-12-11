@@ -1,0 +1,81 @@
+.TicketsComponent{
+  position: relative;
+}
+.TicketsComponent .bottomContainer{
+  display: flex;
+  gap: 1rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+.TicketsComponent .bottomContainer .leftImage{
+  background-color: #9913e1;
+}
+
+.TicketsComponent .bottomContainer .leftImage img{
+  opacity: 0.7;
+}
+
+.TicketsComponent .topContainer{
+  display: flex;
+}
+
+.topContainer :first-child{
+  width: 530px;
+}
+.topContainer {
+  background-color: #9913e1;
+}
+.topContainer :last-child{
+  width: 1000px;
+  opacity: 0.8;
+  
+}
+
+.bottomContainer .textBlock h1{
+  font-size: 4rem;
+  color: black;
+  font-weight: 700;
+}
+
+.bottomContainer .textBlock span {
+  color: #9913e1;
+  
+}
+
+.bottomContainer .textBlock {
+padding: 8rem;
+}
+
+.bottomContainer .textBlock .textContainer {
+  display: flex;
+  text-justify: left;
+  padding-top: 1rem;
+  gap: 4rem;
+  font-weight: bold;
+}
+
+.bottomContainer .textBlock .textContainer .left, .right{
+  text-align: justify;
+}
+
+.bottomContainer .textBlock .textContainer button {
+  background: none;
+  border: 3px solid #9913e1;
+  color: #9913e1;
+  padding-inline: 3rem;
+  padding-block: 1rem;
+  border-radius: 50px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.bottomContainer .textBlock .textContainer button:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 10px #9913e1;
+}
+
+.TicketsComponent .gridPics{
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+}
