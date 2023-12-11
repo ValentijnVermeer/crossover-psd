@@ -4,10 +4,13 @@ import Star from "../../assets/star.png"
 import Stroke3 from "../../assets/stroke3.png"
 import ArrowLeft from "../../assets/arrow-left.png"
 import ArrowRight from "../../assets/arrow-right.png"
+import PaperTearLeft from "../../assets/paper-tear-left.png"
+import PaperTearRight from "../../assets/paper-tear-right.png"
 
 const SectionJohnDoe = () => {
   return (
     <section className='sectionjohndoe-wrapper'>
+    <img src={PaperTearLeft} alt="" />
     <img src={ArrowLeft} alt="" />
     <div className='sectionjohndoe-wrapper-content'>
     <div className='sectionjohndoe-image-wrapper'>
@@ -22,6 +25,7 @@ const SectionJohnDoe = () => {
     <img src={Stroke3} alt="" />
     </div>
     <img src={ArrowRight} alt="" />
+    <img src={PaperTearRight} alt="" />
     </section>
   )
 }
